@@ -45,6 +45,10 @@ if train:
     scores = dqn()
 ```
 
+The model has been trained to get to a max reward of 16 in up to 2000 steps. The agent was able to get this score in about 1100 steps. The agent's performance is shared below:
+![](agent_scores.png)
+
+
 ### Visualizing the trained agent
 Section 1.5 of the notebook has the code for playing in the Unity Environment with the trained agent. The main steps are:
 1. Load the trained weights
